@@ -1,4 +1,4 @@
-import threading
+import threading, sys
 
 class Main(object):
 
@@ -17,7 +17,9 @@ class Main(object):
     def handle(self):
         print("PY : handle")
         while True:
-            ''
+            #sys.stdout.flush()
+            #sys.stderr.flush()
+            pass
 
     def close(self):
         self.closed = True

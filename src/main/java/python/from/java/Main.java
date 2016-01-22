@@ -34,19 +34,5 @@ public class Main {
         System.out.println("JAVA : START");
         new Main().run();
         System.out.println("JAVA : END");
-
-//
-//
-//
-//        pb.directory(new File(dir));
-//        try {
-//            logger.trace("Start process");
-//            lock.lock();
-//            process = pb.start();
-//            cond.await();
-//            lock.unlock();
-//        } catch (IOException | InterruptedException e) {
-//            e.printStackTrace();
-//        }
     }
 }
